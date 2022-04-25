@@ -39,7 +39,7 @@ def desencriptar_archivo(archivo,clave):
     txt.write(texto_desencriptado)
     txt.close()
 
-
+#generar_clave()
 clave = cargar_clave()
 
 archivo = input("\n Introduzca el archivo a encriptar: ")
